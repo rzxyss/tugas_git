@@ -68,3 +68,11 @@ for k,l in data_panen.items():
     
 print(f"Jumlah Hasil Panen Padi : {jumlah_hasil_padi}")
 print(f"Jumlah Hasil Panen Kedelai : {jumlah_hasil_kedelai}")
+
+# Nomor 6
+print("\nNomor 6")
+for i,j in data_panen.items():
+    if j["hasil_panen"]["padi"] > 1300 or j["hasil_panen"]["jagung"] > 800:
+        print(f"{i} Memerlukan Perhatian Khusus")
+    else :
+        print(f"{i} Dalam Kondisi Baik")
