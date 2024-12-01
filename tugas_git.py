@@ -65,3 +65,6 @@ for i,j in data_panen.items():
 
 for k,l in data_panen.items():
     jumlah_hasil_kedelai += l["hasil_panen"]["kedelai"]
+    
+print(f"Jumlah Hasil Panen Padi : {jumlah_hasil_padi}")
+print(f"Jumlah Hasil Panen Kedelai : {jumlah_hasil_kedelai}")
