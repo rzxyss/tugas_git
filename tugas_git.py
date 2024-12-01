@@ -51,3 +51,7 @@ for i,j in data_panen.items():
 # Nomor 2
 print("\nNomor 2")
 print(f"Data Panen Jagung Dari Lokasi 2 adalah {data_panen["lokasi2"]["hasil_panen"]["jagung"]}")
+
+# Nomor 3
+print("\nNomor 3")
+print(f"Nama Dari Lokasi 3 adalah {data_panen["lokasi3"]["nama_lokasi"]}")
