@@ -55,3 +55,13 @@ print(f"Data Panen Jagung Dari Lokasi 2 adalah {data_panen["lokasi2"]["hasil_pan
 # Nomor 3
 print("\nNomor 3")
 print(f"Nama Dari Lokasi 3 adalah {data_panen["lokasi3"]["nama_lokasi"]}")
+
+# Nomor 4
+print("\nNomor 4")
+jumlah_hasil_padi = 0
+jumlah_hasil_kedelai = 0
+for i,j in data_panen.items():
+    jumlah_hasil_padi += j["hasil_panen"]["jagung"]
+
+for k,l in data_panen.items():
+    jumlah_hasil_kedelai += l["hasil_panen"]["kedelai"]
