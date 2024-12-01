@@ -80,3 +80,4 @@ for i,j in data_panen.items():
 # Tambah baru
 
 print("Skenarion konflik branch main")
+print("Skenario konflik branch baru")
